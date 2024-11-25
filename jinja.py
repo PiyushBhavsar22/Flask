@@ -70,14 +70,6 @@ def successif(score):
 
     return render_template('result.html', results=score)
 
-@app.route('/fail/<int:score>')
-def fail(score):
-
-
-    return render_template('result.html', results=score)
-
-@app.route('/getresults')
-def get_reuslt()
 
 
 
